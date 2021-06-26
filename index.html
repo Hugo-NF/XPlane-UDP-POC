@@ -1,64 +1,90 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>X-Plane UDP</title>
-  </head>
-  <body>
-    <h1>X-Plane UDP Proof of Concept</h1>
-    
-    <div>
-      <span>Indicated Airspeed:</span>
-      <span id="airspeed">No Data</span>
-    </div>
 
+<head>
+  <title>X-Plane UDP</title>
+</head>
 
-    <div>
-      <span>Artificial Horizon Pitch:</span>
-      <span id="arthp">No Data</span>
-    </div>
-    <div>
-      <span>Artificial Horizon Roll:</span>
-      <span id="arthr">No Data</span>
-    </div>
-    <div>
-      <span>Artificial Horizon Adjustment:</span>
-      <span id="artha">No Data</span>
-    </div>
+<body>
+  <h1>X-Plane UDP Proof of Concept</h1>
 
+  <div>
+    <span>Beacon lights:</span>
+    <span id="beacon">No Data</span>
+  </div>
 
-    <div>
-      <span>Altitude:</span>
-      <span id="altitude">No Data</span>
-    </div>
+  <div>
+    <span>Transponder Code:</span>
+    <span id="transpondercode">No Data</span>
+  </div>
 
+  <div>
+    <span>Indicated Airspeed (kts):</span>
+    <span id="airspeed">No Data</span>
+  </div>
 
-    <div>
-      <span>Bank Indicator:</span>
-      <span id="bankindicator">No Data</span>
-    </div>
+  <div>
+    <span>Altitude (ft):</span>
+    <span id="altitude">No Data</span>
+  </div>
 
-    <div>
-      <span>Ball:</span>
-      <span id="ball">No Data</span>
-    </div>
+  <div>
+    <span>Heading Indicator (degrees):</span>
+    <span id="heading">No Data</span>
+  </div>
 
-    <div>
-      <span>Heading Indicator:</span>
-      <span id="heading">No Data</span>
-    </div>
+  <div>
+    <span>Ground speed (meters/sec):</span>
+    <span id="groundspeed">No Data</span>
+  </div>
 
+  <div>
+    <span>Latitude (degrees):</span>
+    <span id="latitude">No Data</span>
+  </div>
 
-    <div>
-      <span>Vertical Airspeed:</span>
-      <span id="vertairspeed">No Data</span>
-    </div>
+  <div>
+    <span>Longitude (degrees):</span>
+    <span id="longitude">No Data</span>
+  </div>
 
-    <div>
-      <span>Engine RPM:</span>
-      <span id="rpm">No Data</span>
-    </div>
+  <div>
+    <span>Vertical Airspeed (fpm):</span>
+    <span id="vertairspeed">No Data</span>
+  </div>
 
-    <!-- You can also require other files to run in this process -->
-    <script src="./renderer.js"></script>
-  </body>
+  <div>
+    <span>Payload weight (kgs):</span>
+    <span id="payloadweight">No Data</span>
+  </div>
+
+  <div>
+    <span>Fuel weight (kgs):</span>
+    <span id="fuelweight">No Data</span>
+  </div>
+
+  <div>
+    <span>Total weight (kgs):</span>
+    <span id="totalweight">No Data</span>
+  </div>
+
+  <div>
+    <span>Nose gear on ground:</span>
+    <span id="gear0onground">No Data</span>
+  </div>
+
+  <div>
+    <span>Left main gear on ground:</span>
+    <span id="gear1onground">No Data</span>
+  </div>
+
+  <div>
+    <span>Right main gear on ground:</span>
+    <span id="gear2onground">No Data</span>
+  </div>
+
+  <!-- You can also require other files to run in this process -->
+  <script src="./renderer.js"></script>
+</body>
+
 </html>
